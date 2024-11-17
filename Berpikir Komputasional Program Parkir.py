@@ -48,7 +48,7 @@ while programjalan:
                     while menitawal > 59 or jamawal > 23:
                         awal = input("Waktu Invalid. Tolong input ulang waktu masuk: ")
                         jamawal = int(awal[:2])  # Ambil 2 digit pertama sebagai jam
-                        menitawal = int(awalk[2:])  # Ambil 2 digit berikutnya sebagai menit
+                        menitawal = int(awal[2:])  # Ambil 2 digit berikutnya sebagai menit
                     # Cari tempat parkir kosong pertama untuk mobil baru
                     parked = False
                     for j in range(mobilparksize):
